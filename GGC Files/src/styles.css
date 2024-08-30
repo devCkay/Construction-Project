@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e9e4e4;
+}
+.navbar {
+    color: #ff3503;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    text-decoration: none;
+    color: #f33506;
+}
+.company-name {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #ff5f03;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #0a0a0adc;
+}
+/* Styles for the social icons container */
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Base styles for all social icons */
+.social-icons .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+/* Style for the images inside social icons */
+.social-icons .social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for all social icons */
+.social-icons .social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Individual hover effects for each social platform*/ 
+.social-icons .social-icon.facebook:hover {
+    background-image: url(/img/icons8-facebook-logo-30.png);
+}
+
+.social-icons .social-icon.twitter:hover {
+    background-image: url(/img/icons8-twitter-circled-30.png);
+}
+
+.social-icons .social-icon.linkedin:hover {
+    background-image: url(/img/icons8-linkedin-30.png);
+}
+
+.social-icons .social-icon.instagram:hover {
+    background-image: url(/img/icons8-instagram-30.png);
+}
+
+main {
+    padding: 2rem;
+}
+footer {
+    background-color: #f7410ae8;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

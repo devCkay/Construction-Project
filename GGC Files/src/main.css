@@ -1,0 +1,52 @@
+main {
+    height: calc(100vh - 100px); /* Adjust based on your header and footer height */
+    background-image: url('/img/Background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/*.main-intro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    
+}*/
+
+.main-intro {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.137);
+    width: 300px;
+    height: 150px;
+    margin: 80px 0 0 0;
+    border-radius: 10px;
+    word-spacing: 10px;
+}
+
+.main-intro h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 5px;
+    
+}
+
+.main-intro p {
+    color: rgb(243, 57, 1);
+}
+
+.consultation {
+    display: flex;
+    text-align: center;
+    width: 180px;
+    margin: 50px 0 0 0;
+    padding: 10px;
+    background-color: rgba(255, 52, 1, 0.863);
+    border-radius: 5px;
+    color: #fff;
+}
