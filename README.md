@@ -1,0 +1,2 @@
+# Construction-Project
+ 🚀 Day 1 of #100DaysOfCode Challenge! 💻  Today marks the beginning of my 100-day coding journey, and I’m excited to share my progress! I successfully coded the menu/header section, part of the main section, and the footer using HTML and CSS.   A big shoutout to my coding companion, Clause AI, for assisting me along the way. Looking forward to what the next 99 days will bring!  Stay tuned for more updates as I continue this challenge! 💪 #WebDevelopment #CodingJourney #HTML #CSS #LearningToCode
